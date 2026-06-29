@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Help Desk Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<h1>🤖 AI Help Desk Assistant</h1>
+
+<!-- Chat -->
+<div id="chat"></div>
+
+<input id="question" placeholder="Describe your issue..." />
+<button onclick="diagnose()">Diagnose</button>
+
+<!-- Tickets -->
+<h2>🎫 Tickets</h2>
+
+<input id="searchBox" oninput="searchTickets()" placeholder="Search tickets..." />
+<button onclick="showTickets()">View Tickets</button>
+
+<div id="ticketList"></div>
+
+<!-- Dashboard -->
+<h2>📊 Dashboard</h2>
+<button onclick="showStats()">Refresh Stats</button>
+<div id="stats"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
