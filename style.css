@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #0a84ff;
+  color: white;
+  font-weight: bold;
+}
+
+#chat {
+  border: 1px solid #444;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #222;
+}
+
+#ticketList div {
+  border: 1px solid #444;
+  padding: 10px;
+  margin-top: 5px;
+  background: #1a1a1a;
+}
